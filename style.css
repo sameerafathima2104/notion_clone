@@ -49,3 +49,44 @@ nav button{
     border:none;
     border-radius:8px;
 }
+.features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    width:80%;
+    margin:100px auto;
+}
+
+.card{
+    padding:30px;
+    border:1px solid #ddd;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+.stats{
+    display:flex;
+    justify-content:space-around;
+    margin:100px 0;
+    text-align:center;
+}
+
+.stats h2{
+    font-size:40px;
+}
+.testimonial{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.review{
+    max-width:600px;
+    margin:auto;
+    margin-top:30px;
+    padding:30px;
+    border:1px solid #ddd;
+    border-radius:12px;
+}
